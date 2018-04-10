@@ -1,0 +1,19 @@
+{
+  "name": "htmlteachings",
+  "version": "1.0.0",
+  "description": "HTML Practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "practice"
+  ],
+  "author": "Umar Ahsan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
