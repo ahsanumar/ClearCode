@@ -16,5 +16,7 @@ app.get("/home", function(req, res){
 app.get("/about", function(req, res){
     res.send('<h1>About Us</h1>')
 })
-
+app.get("/contact",function(req,res){
+    res.send('<p>123456</p>')
+})
 app.listen(port, console.log(successMesssage))
