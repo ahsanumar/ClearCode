@@ -10,5 +10,8 @@ app.set("views", __dirname+"/views")
 app.get("/", function(req, res){
     res.render("index")
 })
+app.get("/home", function(req, res){
+    res.render("index")
+})
 
 app.listen(port, console.log(successMesssage))
