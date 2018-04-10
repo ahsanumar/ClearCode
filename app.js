@@ -13,5 +13,8 @@ app.get("/", function(req, res){
 app.get("/home", function(req, res){
     res.render("index")
 })
+app.get("/about", function(req, res){
+    res.send('<h1>About Us</h1>')
+})
 
 app.listen(port, console.log(successMesssage))
