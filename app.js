@@ -1,7 +1,7 @@
 var express = require("express"),
     app = express(),
     pug = require("pug"),
-    port = 6,
+    pot = 6,
     successMesssage = "Server started at http://localhost:"+port
 
 app.set("view engine", "pug")
