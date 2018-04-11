@@ -19,5 +19,8 @@ app.get("/about", function(req, res){
 app.post("/home", function(req, res){
     res.send("Data submitted sexfully.")
 })
+app.get("/hello", function(req, res){
+    res.render("HELLO WORLD!!")
+})
 
 app.listen(port, console.log(successMesssage))
