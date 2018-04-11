@@ -16,4 +16,8 @@ app.get("/home", function(req, res){
 app.get("/about", function(req, res){
     res.send('<h1>About Us</h1>')
 })
+app.post("/home", function(req, res){
+    res.send("Data submitted sexfully.")
+})
+
 app.listen(port, console.log(successMesssage))
